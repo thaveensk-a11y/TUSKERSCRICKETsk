@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tuskers Cricket Club</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <!-- Injected via JS -->
+    </header>
+
+    <main class="container section">
+        <h1>Contact Us</h1>
+        <p>Get in touch with Tuskers Cricket Club for inquiries about joining, sponsorship, or friendly matches.</p>
+
+        <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;">
+
+            <!-- Contact Info -->
+            <div>
+                <div class="card">
+                    <h3>Club Information</h3>
+                    <p><strong>Location:</strong> Saskatoon, Saskatchewan</p>
+                    <p><strong>Email:</strong> <a href="mailto:tuskerscricketclub@email.com"
+                            style="color: var(--accent-color);">tuskerscricketclub@email.com</a></p>
+                    <p><strong>Registered With:</strong> Saskatoon Cricket, Saskatchewan Cricket Association</p>
+                </div>
+
+                <div class="card" style="margin-top: 2rem;">
+                    <h3>Follow Us</h3>
+                    <p>Stay updated with our latest matches and events.</p>
+                    <div style="margin-top: 1rem; font-size: 2rem;">
+                        <a href="#" style="margin-right: 1rem;">📘</a>
+                        <a href="#">📷</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div>
+                <!-- 
+                    NOTE FOR DEPLOYMENT:
+                    To make this form functional on GitHub Pages (static site), 
+                    you can use a service like Formspree or Netlify Forms.
+
+                    Example for Formspree:
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                -->
+                <form id="contact-form" action="mailto:tuskerscricketclub@email.com" method="post" enctype="text/plain"
+                    class="card">
+                    <h3>Send us a Message</h3>
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="General Inquiry">General Inquiry</option>
+                            <option value="Joining the Club">Joining the Club (Player)</option>
+                            <option value="Sponsorship">Sponsorship</option>
+                            <option value="Friendly Match">Arrange a Friendly Match</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="How can we help you?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message (Email Client)</button>
+                    <p style="font-size: 0.8rem; margin-top: 1rem; color: #666;">* This will open your default email
+                        client to send the message.</p>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <!-- Injected via JS -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
