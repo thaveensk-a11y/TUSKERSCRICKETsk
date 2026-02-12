@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-15",
+    "time": "13:00",
+    "opponent": "Saskatoon Strikers",
+    "venue": "Forest Park",
+    "season": "2026",
+    "match_type": "T20 League",
+    "result": "Upcoming",
+    "notes": "Season Opener"
+  },
+  {
+    "id": 2,
+    "date": "2026-05-22",
+    "time": "13:00",
+    "opponent": "Regina Royals",
+    "venue": "Regina Cricket Ground",
+    "season": "2026",
+    "match_type": "T20 League",
+    "result": "Upcoming",
+    "notes": "Away Game"
+  },
+  {
+    "id": 3,
+    "date": "2025-08-10",
+    "time": "14:00",
+    "opponent": "Prairie Fire",
+    "venue": "Forest Park",
+    "season": "2025",
+    "match_type": "T20 League",
+    "result": "Lost by 15 runs",
+    "notes": "Semi-final match"
+  },
+  {
+    "id": 4,
+    "date": "2025-07-25",
+    "time": "10:00",
+    "opponent": "Bridge City CC",
+    "venue": "Diefenbaker Park",
+    "season": "2025",
+    "match_type": "T20 League",
+    "result": "Won by 4 wickets",
+    "notes": "Man of the match: Andrew Fernando"
+  }
+]

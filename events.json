@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Season Opener Training",
+        "date": "2026-04-15",
+        "time": "17:30",
+        "location": "Forest Park Nets",
+        "description": "First full squad training session of the season. Attendance mandatory for all registered players.",
+        "registration_link": ""
+    },
+    {
+        "id": 2,
+        "title": "Community BBQ Fundraiser",
+        "date": "2026-05-01",
+        "time": "12:00",
+        "location": "River Landing",
+        "description": "Join us for burgers and cricket talk! All proceeds go towards new equipment for the junior team.",
+        "registration_link": "#"
+    },
+    {
+        "id": 3,
+        "title": "Annual General Meeting",
+        "date": "2026-03-20",
+        "time": "19:00",
+        "location": "Saskatoon Community Hall",
+        "description": "Election of new committee members and financial report review.",
+        "registration_link": ""
+    }
+]

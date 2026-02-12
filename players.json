@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Diluka Ranasinghe",
+        "role": "Captain / All-rounder",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm medium",
+        "jersey_number": "7",
+        "bio": "Leading the Tuskers in the 2026 season with a focus on team unity and discipline."
+    },
+    {
+        "id": 2,
+        "name": "Andrew Fernando",
+        "role": "Opening Batter",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "None",
+        "jersey_number": "12",
+        "bio": "First season captain who led the team to the semi-finals."
+    },
+    {
+        "id": 3,
+        "name": "Suneru Perera",
+        "role": "Bowler / President",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm off spin",
+        "jersey_number": "33",
+        "bio": "Dedicated to the club's growth both on and off the field."
+    },
+    {
+        "id": 4,
+        "name": "Saranga Bandara",
+        "role": "Senior Player",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Left-arm pace",
+        "jersey_number": "10",
+        "bio": "Founding captain of the re-established club in 2022."
+    },
+    {
+        "id": 5,
+        "name": "Amila Prasad",
+        "role": "Wicket Keeper",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "None",
+        "jersey_number": "99",
+        "bio": "Agile behind the stumps and a reliable middle-order batter."
+    },
+    {
+        "id": 6,
+        "name": "Sample Player",
+        "role": "Bowler",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm fast",
+        "jersey_number": "00",
+        "bio": "A promising talent joining the squad this season."
+    }
+]
